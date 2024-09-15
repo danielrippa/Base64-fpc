@@ -1,0 +1,11 @@
+program EncB64;
+
+uses
+  Base64;
+
+begin
+  if ParamCount > 0 then begin
+    Write(EncodeBase64(ParamStr(1)));
+  end else begin
+  end;
+end.
